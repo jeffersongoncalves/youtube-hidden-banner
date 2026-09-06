@@ -1,3 +1,5 @@
+![YouTube Hidden Banner](banners/youtube-hidden-banner.png)
+
 # YouTube Hidden Banner
 
 A minimal Chrome extension (Manifest V3) that hides the big statement/promo banner ad (`#big-yoodle` / `ytd-statement-banner-renderer`) shown at the top of the YouTube home feed.
