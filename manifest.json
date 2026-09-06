@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Hidden Banner",
+  "version": "1.0.0",
+  "description": "Hide the big statement/promo banner ad from the YouTube home feed.",
+  "host_permissions": ["*://*.youtube.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "css": ["hide-banner.css"],
+      "run_at": "document_start"
+    }
+  ]
+}

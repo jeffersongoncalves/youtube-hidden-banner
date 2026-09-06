@@ -1,0 +1,6 @@
+/* Hide the big statement/promo banner ad on the YouTube home feed. Always active — disable the extension to turn off. */
+
+#big-yoodle,
+ytd-statement-banner-renderer {
+  display: none !important;
+}
